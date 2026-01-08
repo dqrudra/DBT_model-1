@@ -58,6 +58,8 @@ SELECT
   UNIT_PRICE,
   "DATE",
   CATEGORY,
-  QUANTITY
+  QUANTITY,
+  UNIT_PRICE,
+  TOTAL_AMOUNT
 FROM deduplicated_data
 WHERE rn = 1 
